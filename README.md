@@ -20,3 +20,5 @@ to be the most efficient one!
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The big $\Theta$ complexity of my implementation is $\ O(V^2)$, where $V$ represents the number of vertices in the graph. This is because of the process of initializing distances, which involves iterating over all vertices, marking them as visited, and updating distances if shorter paths are found. The nested loops in my code contribute to this time complexity, with the outer loop handling all vertices and the inner loop handling with adjacent vertices, making it overall the $\Theta(V^2)$. 
