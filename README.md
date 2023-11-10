@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12599995&assignment_repo_type=AssignmentRepo)
 # Dijkstra's Algorithm
 
 Recall the pseudocode for Dijkstra's algorithm:
@@ -19,3 +20,5 @@ to be the most efficient one!
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The big $\Theta$ complexity of my implementation is $\ O(V^2)$, where $V$ represents the number of vertices in the graph. This is because of the process of initializing distances, which involves iterating over all vertices, marking them as visited, and updating distances if shorter paths are found. The nested loops in my code contribute to this time complexity, with the outer loop handling all vertices and the inner loop handling with adjacent vertices, making it overall the $\Theta(V^2)$. 
